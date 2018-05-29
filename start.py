@@ -1,12 +1,3 @@
-daftar_teman = []
-daftar_teman.append('Joko')
-daftar_teman.append('Bowo')
-daftar_teman.append('Mega')
-daftar_teman.append('Beye')
+from Buku.views import run_view
 
-
-print ("Daftar Teman:")
-print ("---")
-
-for dn in daftar_teman:
-    print (dn)
+run_view()
